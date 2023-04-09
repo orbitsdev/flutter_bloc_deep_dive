@@ -24,7 +24,7 @@ class _BlockDeepDiveState extends State<BlockDeepDive> {
       theme: ThemeData.dark().copyWith(
         useMaterial3: true,
       ) ,
-      home:Home()
+      home:const Home()
     );
   }
 }
