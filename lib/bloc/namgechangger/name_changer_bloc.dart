@@ -15,7 +15,5 @@ class NameChangerBloc extends Bloc<NameChangedEvent, NameChangerState > {
       emit(NameChangerState(name: 'New Name When clicked now'));
     });
   
-   
-
   }
 }
